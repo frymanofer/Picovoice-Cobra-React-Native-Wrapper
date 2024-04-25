@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "picovoice-cobra-react-native": ["../src/index"],
+      "picovoice-cobra-react-native/*": ["../src/*"]
+    }
+  }
+}
