@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "picovoice-cobra-react-native",
+    "slug": "picovoice-cobra-react-native",
+    "version": "0.1.0",
+    "description": "Cobra for React Native",
+    "sdkVersion": "50.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.oferfryman.picovoicecobrareactnative"
+    }
+  }
+}
