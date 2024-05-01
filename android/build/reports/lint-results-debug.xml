@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.1.1">
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#now`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="    private LocalDateTime lastChange = LocalDateTime.now();"
+        errorLine2="                                                     ~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="41"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#now`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="            lastChange = LocalDateTime.now(); // Mark the time of change"
+        errorLine2="                                       ~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="143"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#isBefore`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {"
+        errorLine2="                                                                 ~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="146"
+            column="66"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#now`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {"
+        errorLine2="                                                                                        ~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="146"
+            column="89"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#plusSeconds`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {"
+        errorLine2="                           ~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="146"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Cast from `LocalDateTime` to `ChronoLocalDateTime` requires API level 26 (current min is 23)"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {"
+        errorLine2="                                                                          ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="146"
+            column="75"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        severity="Error"
+        message="Call requires API level 26 (current min is 23): `java.time.LocalDateTime#now`"
+        category="Correctness"
+        priority="6"
+        summary="Calling new methods on older versions"
+        explanation="This check scans through all the Android API calls in the application and warns about any calls that are not available on **all** versions targeted by this application (according to its minimum SDK attribute in the manifest).&#xA;&#xA;If you really want to use this API and don&apos;t need to support older devices just set the `minSdkVersion` in your `build.gradle` or `AndroidManifest.xml` files.&#xA;&#xA;If your code is **deliberately** accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the `@TargetApi` annotation specifying the local minimum SDK to apply, such as `@TargetApi(11)`, such that this check considers 11 rather than your manifest file&apos;s minimum SDK as the required API level.&#xA;&#xA;If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v`*NN* folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.&#xA;&#xA;Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
+        errorLine1="                lastChange = LocalDateTime.now(); // Reset the last change time"
+        errorLine2="                                           ~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java"
+            line="149"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.8.10 is available: 1.9.20"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &quot;org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}&quot;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="92"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.3.1 is available: 1.6.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &apos;androidx.appcompat:appcompat:1.3.1&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="93"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.google.android.material:material than 1.4.0 is available: 1.11.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &apos;com.google.android.material:material:1.4.0&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="94"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.1 is available: 2.1.4"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &apos;androidx.constraintlayout:constraintlayout:2.1.1&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="95"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.navigation:navigation-fragment than 2.3.5 is available: 2.7.7"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &apos;androidx.navigation:navigation-fragment:2.3.5&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="96"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.navigation:navigation-ui than 2.3.5 is available: 2.7.7"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="  implementation &apos;androidx.navigation:navigation-ui:2.3.5&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="97"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="KtxExtensionAvailable"
+        severity="Information"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library"
+        category="Productivity"
+        priority="4"
+        summary="KTX Extension Available"
+        explanation="Android KTX extensions augment some libraries with support for modern Kotlin language features like extension functions, extension properties, lambdas, named parameters, coroutines, and more.&#xA;&#xA;In Kotlin projects, use the KTX version of a library by replacing the dependency in your `build.gradle` file. For example, you can replace `androidx.fragment:fragment` with `androidx.fragment:fragment-ktx`."
+        url="https://developer.android.com/kotlin/ktx"
+        urls="https://developer.android.com/kotlin/ktx"
+        errorLine1="  implementation &apos;androidx.navigation:navigation-fragment:2.3.5&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="96"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="KtxExtensionAvailable"
+        severity="Information"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library"
+        category="Productivity"
+        priority="4"
+        summary="KTX Extension Available"
+        explanation="Android KTX extensions augment some libraries with support for modern Kotlin language features like extension functions, extension properties, lambdas, named parameters, coroutines, and more.&#xA;&#xA;In Kotlin projects, use the KTX version of a library by replacing the dependency in your `build.gradle` file. For example, you can replace `androidx.fragment:fragment` with `androidx.fragment:fragment-ktx`."
+        url="https://developer.android.com/kotlin/ktx"
+        urls="https://developer.android.com/kotlin/ktx"
+        errorLine1="  implementation &apos;androidx.navigation:navigation-ui:2.3.5&apos;"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle"
+            line="97"
+            column="18"/>
+    </issue>
+
+</issues>

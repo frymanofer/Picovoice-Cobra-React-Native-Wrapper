@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/standalone_badge_gravity_top_start.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/xml/standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/standalone_badge_offset.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/xml/standalone_badge_offset.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/standalone_badge.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/xml/standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/xml/rn_dev_preferences.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-jetified-react-android-0.73.6-release-27:/xml/rn_dev_preferences.xml"
+    }
+]

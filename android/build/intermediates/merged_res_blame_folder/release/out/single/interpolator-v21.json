@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    }
+]

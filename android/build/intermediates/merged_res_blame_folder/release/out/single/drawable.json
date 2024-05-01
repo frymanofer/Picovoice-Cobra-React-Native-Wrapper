@@ -1,0 +1,346 @@
+[
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_list_selector_holo_light.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_cab_background_top_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/tooltip_frame_dark.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_item_background_holo_dark.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_textfield_search_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_ic_cancel.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/redbox_top_border_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-jetified-react-android-0.73.6-release-27:/drawable/redbox_top_border_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_star_half_black_48dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_keyboard_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_check_material_anim.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_item_background_holo_light.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_ic_error.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_dropdown_arrow.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_edit_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/notification_bg_low.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/design_fab_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/notification_tile_bg.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/avd_hide_password.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_seekbar_track_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ratingbar_small_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_radio_on_mtrl.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/design_ic_visibility.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_seekbar_thumb_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/design_password_eye.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_switch_thumb_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_go_search_api_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_borderless_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/navigation_empty_icon.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/tooltip_frame_light.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/design_ic_visibility_off.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_mtrl_checked_circle.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_star_black_48dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_cab_background_internal_bg.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_clock_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_radio_material_anim.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_search_api_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/notification_bg.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/test_level_drawable.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_list_selector_holo_dark.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_radio_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/test_custom_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ratingbar_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_clear_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_clear_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_radio_off_mtrl.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_vector_test.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-jetified-appcompat-resources-1.6.1-11:/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_ab_back_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_text_cursor_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/avd_show_password.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/design_snackbar_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_popupmenu_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_tab_indicator_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_btn_check_material.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/mtrl_dialog_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/notification_icon_background.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-appcompat-1.6.1-31:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-material-1.4.0-5:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    }
+]

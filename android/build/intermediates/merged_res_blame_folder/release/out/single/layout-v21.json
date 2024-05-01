@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/layout-v21/notification_action.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/layout-v21/notification_template_icon_group.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/layout-v21/notification_action_tombstone.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "expo.modules.expocobra.picovoice-cobra-react-native-merged_res-37:/layout-v21/notification_template_custom_big.xml",
+        "source": "expo.modules.expocobra.picovoice-cobra-react-native-core-1.12.0-18:/layout-v21/notification_template_custom_big.xml"
+    }
+]

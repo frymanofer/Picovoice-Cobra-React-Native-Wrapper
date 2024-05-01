@@ -1,0 +1,91 @@
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:41: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#now [NewApi]
+    private LocalDateTime lastChange = LocalDateTime.now();
+                                                     ~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:143: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#now [NewApi]
+            lastChange = LocalDateTime.now(); // Mark the time of change
+                                       ~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:146: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#isBefore [NewApi]
+            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {
+                                                                 ~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:146: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#now [NewApi]
+            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {
+                                                                                        ~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:146: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#plusSeconds [NewApi]
+            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {
+                           ~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:146: Error: Cast from LocalDateTime to ChronoLocalDateTime requires API level 26 (current min is 23) [NewApi]
+            if (lastChange.plusSeconds(secondsBetweenCollection).isBefore(LocalDateTime.now())) {
+                                                                          ~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/src/main/java/expo/modules/expocobra/cobraMainClass.java:149: Error: Call requires API level 26 (current min is 23): java.time.LocalDateTime#now [NewApi]
+                lastChange = LocalDateTime.now(); // Reset the last change time
+                                           ~~~
+
+   Explanation for issues of type "NewApi":
+   This check scans through all the Android API calls in the application and
+   warns about any calls that are not available on all versions targeted by
+   this application (according to its minimum SDK attribute in the manifest).
+
+   If you really want to use this API and don't need to support older devices
+   just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+   files.
+
+   If your code is deliberately accessing newer APIs, and you have ensured
+   (e.g. with conditional execution) that this code will only ever be called
+   on a supported platform, then you can annotate your class or method with
+   the @TargetApi annotation specifying the local minimum SDK to apply, such
+   as @TargetApi(11), such that this check considers 11 rather than your
+   manifest file's minimum SDK as the required API level.
+
+   If you are deliberately setting android: attributes in style definitions,
+   make sure you place this in a values-vNN folder in order to avoid running
+   into runtime conflicts on certain devices where manufacturers have added
+   custom attributes whose ids conflict with the new ones on later platforms.
+
+   Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+   the element will only be inflated in an adequate context.
+
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:92: Warning: A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.8.10 is available: 1.9.20 [GradleDependency]
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:93: Warning: A newer version of androidx.appcompat:appcompat than 1.3.1 is available: 1.6.1 [GradleDependency]
+  implementation 'androidx.appcompat:appcompat:1.3.1'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:94: Warning: A newer version of com.google.android.material:material than 1.4.0 is available: 1.11.0 [GradleDependency]
+  implementation 'com.google.android.material:material:1.4.0'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:95: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.1 is available: 2.1.4 [GradleDependency]
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:96: Warning: A newer version of androidx.navigation:navigation-fragment than 2.3.5 is available: 2.7.7 [GradleDependency]
+  implementation 'androidx.navigation:navigation-fragment:2.3.5'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:97: Warning: A newer version of androidx.navigation:navigation-ui than 2.3.5 is available: 2.7.7 [GradleDependency]
+  implementation 'androidx.navigation:navigation-ui:2.3.5'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:96: Information: Add suffix -ktx to enable the Kotlin extensions for this library [KtxExtensionAvailable]
+  implementation 'androidx.navigation:navigation-fragment:2.3.5'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oferfryman/projects/Picovoice-Cobra-React-Native-Wrapper/tmp/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/android/build.gradle:97: Information: Add suffix -ktx to enable the Kotlin extensions for this library [KtxExtensionAvailable]
+  implementation 'androidx.navigation:navigation-ui:2.3.5'
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "KtxExtensionAvailable":
+   Android KTX extensions augment some libraries with support for modern
+   Kotlin language features like extension functions, extension properties,
+   lambdas, named parameters, coroutines, and more.
+
+   In Kotlin projects, use the KTX version of a library by replacing the
+   dependency in your build.gradle file. For example, you can replace
+   androidx.fragment:fragment with androidx.fragment:fragment-ktx.
+
+   https://developer.android.com/kotlin/ktx
+
+7 errors, 6 warnings
