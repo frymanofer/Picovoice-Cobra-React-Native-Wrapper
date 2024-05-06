@@ -11,6 +11,9 @@
     ],
     "ios": {
       "bundleIdentifier": "com.oferfryman.picovoice-cobra-react-native"
+    },
+    "android": {
+      "package": "com.oferfryman.picovoicecobrareactnative"
     }
   }
 }

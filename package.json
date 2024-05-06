@@ -1,6 +1,6 @@
 {
   "name": "picovoice-cobra-react-native",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "Cobra for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -33,33 +33,33 @@
   "author": "Ofer Fryman <frymanofer@gmail.com> (https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper)",
   "license": "MIT",
   "homepage": "https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native#readme",
+  "dependencies": {
+    "@expo/config-plugins": "^3.x",
+    "@picovoice/picovoice-react-native": "^3.0.2",
+    "@picovoice/porcupine-react-native": "^3.0.2",
+    "@picovoice/react-native-voice-processor": "^1.2.2",
+    "@picovoice/rhino-react-native": "^3.0.2",
+    "picovoice-cobra-react-native": "^0.1.11"
+  },
   "devDependencies": {
     "@react-native-community/bob": "^0.17.1",
     "@types/react": "~18.2.45",
+    "expo": "^50.0.18",
     "expo-module-scripts": "^3.4.1",
-    "expo-modules-core": "^1.11.12"
+    "expo-modules-core": "^1.11.12",
+    "react": "18.2.0"
   },
   "peerDependencies": {
     "@picovoice/picovoice-react-native": "^3.0.2",
     "@picovoice/porcupine-react-native": "^3.0.2",
     "@picovoice/react-native-voice-processor": "^1.2.2",
     "@picovoice/rhino-react-native": "^3.0.2",
-    "expo": "*",
-    "react": "*",
-    "react-native": "*"
+    "expo": ">=50.0.18",
+    "react": ">=18.2.0"
   },
   "peerDependenciesMeta": {
     "expo": {
       "optional": true
     }
-  },
-  "dependencies": {
-    "@picovoice/picovoice-react-native": "^3.0.2",
-    "@picovoice/porcupine-react-native": "^3.0.2",
-    "@picovoice/react-native-voice-processor": "^1.2.2",
-    "@picovoice/rhino-react-native": "^3.0.2",
-    "expo": "^50.0.17",
-    "react": "18.2.0",
-    "react-native": "0.73.6"
   }
 }
