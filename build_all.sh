@@ -1,6 +1,9 @@
 # Must in the IOS Podfile:
 # use_frameworks! :linkage => :static
 
+# Based on: https://docs.expo.dev/modules/native-module-tutorial/#example-app-1
+
+#npm install --save-dev jest ???
 
 yarn add expo
 npx expo install  react-native
@@ -8,6 +11,12 @@ npx expo install  @picovoice/rhino-react-native
 npx expo install  @picovoice/react-native-voice-processor
 npx expo install   @picovoice/picovoice-react-native
 npx expo install   @picovoice/porcupine-react-native
+
+npx expo-doctor
+npx expo install --check
+
+# run this to get typscript compliler running:
+npm run build
 
 # update version in package.json and ->
 # npm publish --access public

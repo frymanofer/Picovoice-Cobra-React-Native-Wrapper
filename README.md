@@ -32,15 +32,6 @@ Run `npx pod-install` after installing the npm package.
 
 This can be as simple as adding a line to their app.config.js:
 
-// app.config.js in the user's project
-const { withCobra } = require('picovoice-cobra-react-native/plugin');
-
-module.exports = withCobra({
-    name: "UserApp",
-    // other expo configuration
-}, {
-    apiKey: 'X-XXX-XXX', // optional configuration parameters
-});
 
 
 
