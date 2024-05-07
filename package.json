@@ -1,6 +1,6 @@
 {
   "name": "picovoice-cobra-react-native",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Cobra for React Native",
   "main": "src/index.js",
   "types": "src/index.d.ts",
