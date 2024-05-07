@@ -1,0 +1,62 @@
+{
+  "name": "picovoice-cobra-react-native",
+  "version": "0.1.17",
+  "description": "Cobra for React Native",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "picovoice-cobra-react-native",
+    "PicovoiceCobraReactNative"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native"
+  },
+  "bugs": {
+    "url": "https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native/issues"
+  },
+  "author": "Ofer Fryman <frymanofer@gmail.com> (https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper)",
+  "license": "MIT",
+  "homepage": "https://github.com/frymanofer/Picovoice-Cobra-React-Native-Wrapper/picovoice-cobra-react-native#readme",
+  "dependencies": {
+    "@expo/config-plugins": "^7.8.0",
+    "@picovoice/picovoice-react-native": "^3.0.2",
+    "@picovoice/porcupine-react-native": "^3.0.2",
+    "@picovoice/react-native-voice-processor": "^1.2.2",
+    "@picovoice/rhino-react-native": "^3.0.2",
+    "expo": "*",
+    "install-expo-modules": "0.10.0",
+    "react": "*",
+    "react-native": "0.73.6"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.17.1",
+    "@types/react": "~18.2.45",
+    "expo": "^50.0.18",
+    "expo-module-scripts": "^3.4.1",
+    "expo-modules-core": "^1.11.12",
+    "jest": "^29.7.0",
+    "react": "18.2.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
