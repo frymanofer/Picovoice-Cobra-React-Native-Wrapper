@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "picovoice-cobra-react-native": ["../src/index"],
-      "picovoice-cobra-react-native/*": ["../src/*"]
+      "picovoicecobrareactnative": ["../src/index"],
+      "picovoicecobrareactnative/*": ["../src/*"]
     }
   }
 }
