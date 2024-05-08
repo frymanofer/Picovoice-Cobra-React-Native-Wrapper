@@ -122,9 +122,18 @@ public class cobraMainClass {
     public void requestRecordPermission() {
 //        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO}, 0);
     }
-    public void toggle() {
-                Log.d("Init", "This is a debug message");
+    public void stop() {
+        try {
+            if (isActive) {
+                voiceProcessor.stop();
+                isActive = false;
+            }
+        } catch (VoiceProcessorException e) {
+            //displayError(e.getMessage());
+        }
+    }
 
+    public void toggle() {
         try {
             if (!isActive) {
                 voiceProcessor.start(cobra.getFrameLength(), cobra.getSampleRate());

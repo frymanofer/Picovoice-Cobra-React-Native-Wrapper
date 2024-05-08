@@ -30,10 +30,23 @@ Run `npx pod-install` after installing the npm package.
 
 ### Usage 
 
-This can be as simple as adding a line to their app.config.js:
+Install the Latest Version: Ensure you have the latest version by using NPM, Yarn, or another package manager of your choice.
 
+API Usage:
+setCobra(timeInSeconds): Accepts a string representing the timeframe in seconds for checking human voice presence. For example, setCobra("60") configures the system to check every minute. Consequently, getCobra() will then return the highest probability of detecting human voice within each minute.
+stopCobra(): Stops the detection process and releases all associated resources.
 
+Run the Application:
+It is recommended to use Expo, as this SDK was developed with Expo modules.
+Begin by preparing your project with the following commands:
 
+npx expo prebuild
+
+To run your application:
+npx expo run:ios
+npx expo run:android
+
+These commands facilitate the development and testing of your application across different platforms, ensuring that the SDK functions as expected.
 
 # Contributing
 

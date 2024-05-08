@@ -7,6 +7,7 @@ import android.content.SharedPreferences
 import androidx.core.os.bundleOf
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
+import android.util.Log
 
 public class ExpoCobraModule : Module() {
   // Each module class must implement the definition function. The definition consists of components
@@ -30,10 +31,13 @@ public class ExpoCobraModule : Module() {
       getPreferences().edit().putString("cobra", cobra).commit()
       // this@ExpoCobraModule.sendEvent("onChangeCobra", bundleOf("cobra" to cobra))
     }
-
+    
+    Function("stopCobra") {
+        myCobra?.stop() ?: Log.w("ExpoCobraModule", "Cobra model is not initialized.")
+    }
+    
     Function("getCobra") {
       return@Function getVP()
-      //return@Function getPreferences().getString("cobra", "system")
     }
   }
 
